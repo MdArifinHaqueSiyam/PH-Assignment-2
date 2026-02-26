@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <title>TechWave</title>
+    <link rel="stylesheet" href="style-2.css">
 </head>
-<body>
+<body class="bg-[#1A0B2E] text-white">
     <header>
-        <section>
-            <div>
-                <h1></h1>
+        <section class="navbar-container">
+            <nav class="flex justify-around py-[30px]">
+                <div class="logo text-3xl font-bold cursor-pointer">
+                <h1>Tech<span>Wave</span></h1>
             </div>
+            <div class="items-center py-[7px]">
+                <ul class="flex gap-8 cursor-pointer">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+            </div>
+            <button class="flex border-none cursor-pointer px-4 py-3">Subscribe <img class="" src="assets/ArrowRight.png" alt=""></button>
+            </nav>
         </section>
     </header>
+
+    
 </body>
 </html>

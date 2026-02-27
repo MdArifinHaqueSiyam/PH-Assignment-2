@@ -24,6 +24,23 @@
 }
 
 /* main styles */
+
+nav .wave{
+    background: linear-gradient(45deg,#F7E93F, #FB09B4, #9100F8);
+    color: white;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    /* background-clip: text; */
+}
+
+.sub-btn{
+    padding: 12px 16px;
+    gap: 4px;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 .hero-banner{
     margin: 0 auto;
     position: relative;
@@ -150,6 +167,212 @@
     font-size: 3rem;
     font-weight: 700;
 }
+
+.promotion-boxes{
+    margin-top: 160px;
+    gap: 80px;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.promotion-boxes h3{
+    font-size: 48px;
+    font-weight: 800;
+    color: #00FF88;
+}
+
+.promotion-boxes p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.thired-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #230E3D;
+    margin: 0 auto;
+}
+
+.thired-banner h2{
+    margin-top: 120px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.detailed-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 40px;
+    max-width: 1200px;
+    max-height: 783px;
+    margin-bottom: 120px;
+    /* margin: 0 auto; */
+}
+
+.detailed-cards div{
+    background-color: #35116557;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.detailed-cards img{
+    width: 60px;
+    margin-top: 40px;
+}
+
+.detailed-cards h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 16px 40px;
+}
+
+.detailed-cards p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.514);
+    line-height: 24px;
+}
+
+.tall-layout{
+    grid-row: span 2;
+}
+
+.wide-layout{
+    grid-column: span 2;
+}
+
+.episodes-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.episodes-section h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.video-section{
+    display: flex;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* margin: 0 auto; */
+    
+}
+
+.video-section div{
+    background-color: #250D44;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* width: 380px;
+    height: 440px; */
+}
+
+.video-section div h3{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 20px;
+    height: auto;
+}
+
+.video-section div .video-describtion{
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.568);
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.video-section div .video-time{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.video-section div .video-time img{
+    width: 20px;
+    height: 20px;
+}
+
+.host-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.host-section h2{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.host-details{
+    display: flex;
+    background-color: #35116577;
+    /* gap: 24px; */
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 120px;
+}
+
+.host-img{
+    margin: 24px;
+}
+
+.host-describtion{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.host-describtion h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 24px 0 16px 0px;
+}
+
+.host-describtion p{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.host-social{
+    display: flex;
+    gap: 8px;
+}
+
+.host-social img{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 10px;
+    /* width: 20px;
+    height: 20px; */
+}
+
 
 
 
